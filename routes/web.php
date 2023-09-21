@@ -15,6 +15,7 @@ use App\Http\Controllers\HomepageController;
 */
 
 
+Route::get('/',[HomepageController::class, 'index'])->name('index');
 Route::get('/home',[HomepageController::class, 'index'])->name('index');
 Route::get('/price',[HomepageController::class, 'price'])->name('price');
 Route::get('/about',[HomepageController::class, 'about'])->name('about');

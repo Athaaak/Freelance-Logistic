@@ -1,9 +1,30 @@
 /********** Template CSS **********/
 :root {
-    --primary: #FF3E41;
+    --primary: #36860D;
     --secondary: #51CFED;
     --light: #F8F2F0;
     --dark: #060315;
+}
+
+.bg-color-green {
+    background-color: #36860D;
+}
+
+.font-size-header {
+    font-size: 85px;
+}
+
+.font-white {
+    color: white;
+}
+
+.font-green {
+    color: #44A611;
+}
+
+.remove-padding {
+    padding-bottom: 0 !important;
+    margin-bottom: -3rem !important;
 }
 
 .fw-medium {
@@ -96,7 +117,7 @@
 }
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
@@ -119,6 +140,15 @@
 .navbar-light.sticky-top {
     top: -100px;
     transition: .5s;
+}
+
+.logo {
+    border-radius: 5px;
+    box-shadow: 0 3px 10px 0;
+}
+
+.border-primary {
+    border-color: #36860D !important;
 }
 
 @media (min-width: 992px) {
@@ -168,7 +198,7 @@
         position: relative;
         min-height: 500px;
     }
-    
+
     .header-carousel .owl-carousel-item img {
         position: absolute;
         width: 100%;
@@ -186,6 +216,10 @@
         font-size: 30px;
         font-weight: 600;
     }
+}
+
+.header-desc {
+    width: 70%;
 }
 
 .header-carousel .owl-nav {
@@ -224,7 +258,7 @@
     background-size: cover;
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
@@ -235,19 +269,19 @@
         max-width: 100% !important;
     }
 
-    .about-text  {
+    .about-text {
         padding-right: calc(((100% - 960px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1200px) {
-    .about-text  {
+    .about-text {
         padding-right: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .about-text  {
+    .about-text {
         padding-right: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
@@ -259,19 +293,19 @@
         max-width: 100% !important;
     }
 
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 960px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1200px) {
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .feature-text  {
+    .feature-text {
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
@@ -357,6 +391,10 @@
     background: var(--secondary);
 }
 
+.col-sm-6 {
+    width: 100%;
+}
+
 
 /*** Testimonial ***/
 .testimonial-carousel .owl-item .testimonial-item {
@@ -399,19 +437,19 @@
         max-width: 100% !important;
     }
 
-    .contact-page .contact-form  {
+    .contact-page .contact-form {
         padding-left: calc(((100% - 960px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1200px) {
-    .contact-page .contact-form  {
+    .contact-page .contact-form {
         padding-left: calc(((100% - 1140px) / 2) + .75rem);
     }
 }
 
 @media (min-width: 1400px) {
-    .contact-page .contact-form  {
+    .contact-page .contact-form {
         padding-left: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
@@ -419,7 +457,7 @@
 
 /*** Footer ***/
 .footer {
-    background: linear-gradient(rgba(6, 3, 21, .5), rgba(6, 3, 21, .5)), url(../img/map.png) center center no-repeat;
+    background: linear-gradient(rgba(54, 134, 13, 100), rgba(54, 134, 13, 100)), url(../img/map.png) center center no-repeat;
     background-size: cover;
 }
 

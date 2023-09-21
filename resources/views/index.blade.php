@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Logistica - Shipping Company Website Template</title>
+    <title>PTCN Agriculture</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
     <meta content="" name="keywords">
     <meta content="" name="description">
@@ -37,7 +37,7 @@
     <div id="spinner"
         class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-grow text-primary" style="width: 3rem; height: 3rem;" role="status">
-            <span class="sr-only">Loading...</span>
+            <span class="sr-only">Harap tunggu...</span>
         </div>
     </div>
     <!-- Spinner End -->
@@ -45,8 +45,8 @@
 
     <!-- Navbar Start -->
     <nav class="navbar navbar-expand-lg bg-white navbar-light shadow border-top border-5 border-primary sticky-top p-0">
-        <a href="index.html" class="navbar-brand bg-primary d-flex align-items-center px-4 px-lg-5">
-            <h2 class="mb-2 text-white">Logistica</h2>
+        <a href="{{ route('index') }}" class="navbar-brand d-flex align-items-center px-4 px-lg-5">
+            <img src="img/Logo.png" class="logo" height="100" width="200">
         </a>
         <button type="button" class="navbar-toggler me-4" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon"></span>
@@ -54,21 +54,16 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto p-4 p-lg-0">
                 <a href="{{ route('index') }}" class="nav-item nav-link active">Home</a>
-                <a href="{{ route('about') }}" class="nav-item nav-link">About</a>
-                <a href="{{ route('service') }}" class="nav-item nav-link">Services</a>
-                <div class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Pages</a>
-                    <div class="dropdown-menu fade-up m-0">
-                        <a href="{{ route('price') }}" class="dropdown-item">Pricing Plan</a>
-                        <a href="{{ route('feature') }}" class="dropdown-item">Features</a>
-                        <a href="{{ route('quote') }}" class="dropdown-item">Free Quote</a>
-                        <a href="{{ route('team') }}" class="dropdown-item">Our Team</a>
-                        <a href="{{ route('testimonial') }}" class="dropdown-item">Testimonial</a>
-                    </div>
-                </div>
-                <a href="{{ route('contact') }}" class="nav-item nav-link">Contact</a>
+                <a href="{{ route('service') }}" class="nav-item nav-link">Kelebihan</a>
+                <a href="{{ route('contact') }}" class="nav-item nav-link">Produk</a>
+                <a href="{{ route('about') }}" class="nav-item nav-link">Tentang Kami</a>
             </div>
-            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><i class="fa fa-headphones text-primary me-3"></i>+012 345 6789
+            <h4 class="m-0 pe-lg-5 d-none d-lg-block"><a href="
+            javascript:void(0)"
+                    onclick="window.open('https://wa.me/6281359225792?text=Halo,',',%20Saya%20tertarik%20dengan%20produk%20pupuk%20anda%20','blank')">
+                    <img width="48" height="48" src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"
+                        alt="whatsapp--v1" />
+                </a>
             </h4>
         </div>
     </nav>
@@ -76,26 +71,27 @@
 
 
     <!-- Carousel Start -->
-    <div class="container-fluid p-0 pb-5">
+    <div class="container-fluid p-0 remove-padding">
         <div class="owl-carousel header-carousel position-relative mb-5">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/carousel-1.jpg" alt="">
+                <img class="img-fluid" src="img/header-bg.jpg" alt="">
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style="background: rgba(6, 3, 21, .5);">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
-                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Transport & Logistics
+                                <h5 class="text-white text-uppercase mb-3 animated slideInDown">Agriculture
                                     Solution</h5>
-                                <h1 class="display-3 text-white animated slideInDown mb-4">#1 Place For Your <span
-                                        class="text-primary">Logistics</span> Solution</h1>
-                                <p class="fs-5 fw-medium text-white mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor
-                                    at sed stet sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea
-                                    elitr.</p>
-                                <a href="" class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Read
-                                    More</a>
-                                <a href="" class="btn btn-secondary py-md-3 px-md-5 animated slideInRight">Free
-                                    Quote</a>
+                                <h1 class="display-3 text-white animated slideInDown mb-4 font-size-header">#1 Solusi
+                                    <span class="font-green">Pupuk</span> <br>Pertanian Anda</h1>
+                                <p class="fs-5 fw-medium text-white mb-4 pb-2 header-desc">Temukan berbagai kebutuhan
+                                    pupuk
+                                    berkualitas yang diproses secara professional sekarang juga.
+                                </p>
+                                <a href="javascript:void(0)"
+                                    onclick="window.open('https://wa.me/6281359225792?text=Halo,',',%20Saya%20tertarik%20dengan%20produk%20pupuk%20anda%20','blank')"
+                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Hubungi
+                                    Kami</a>
                             </div>
                         </div>
                     </div>
@@ -121,7 +117,6 @@
     </div>
     <!-- Carousel End -->
 
-
     <!-- About Start -->
     <div class="container-fluid overflow-hidden py-5 px-lg-0">
         <div class="container about py-5 px-lg-0">
@@ -133,35 +128,74 @@
                     </div>
                 </div>
                 <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="text-secondary text-uppercase mb-3">About Us</h6>
-                    <h1 class="mb-5">Quick Transport and Logistics Solutions</h1>
-                    <p class="mb-5">Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et
-                        eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet
+                    <h6 class="text-secondary text-uppercase mb-3">tentang Kami</h6>
+                    <h1 class="mb-5">PT. Centra Agro Pratama</h1>
+                    <p class="mb-5">PT. Centra Agro Pratama merupakan perusahaan yang bergerak dibidang pupuk yang
+                        beroperasi sejak tahun 2011.
                     </p>
                     <div class="row g-4 mb-5">
                         <div class="col-sm-6 wow fadeIn" data-wow-delay="0.5s">
-                            <i class="fa fa-globe fa-3x text-primary mb-3"></i>
-                            <h5>Global Coverage</h5>
-                            <p class="m-0">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam justo.
-                            </p>
-                        </div>
-                        <div class="col-sm-6 wow fadeIn" data-wow-delay="0.7s">
-                            <i class="fa fa-shipping-fast fa-3x text-primary mb-3"></i>
-                            <h5>On Time Delivery</h5>
-                            <p class="m-0">Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam justo.
+                            <img width="50" height="50" src="https://img.icons8.com/ios/50/chemical-plant-3.png"
+                                alt="chemical-plant-3" />
+                            <h5>Lokasi Kami</h5>
+                            <p class="m-0">Lokasi Pabrik terletak di Jl. Raya Daendels Km. 47,2,
+                                RT.001, RW.001, Desa
+                                Bolo, Kecamatan Ujungpangkah, Kab. Gresik, Provinsi Jawa Timur.
                             </p>
                         </div>
                     </div>
-                    <a href="" class="btn btn-primary py-3 px-5">Explore More</a>
                 </div>
             </div>
         </div>
     </div>
     <!-- About End -->
 
+    <!-- Feature Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0 bg-color-green">
+        <div class="container feature py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="font-white text-uppercase mb-3">Kelebihan kami</h6>
+                    <h1 class="mb-5 font-white">Telah Dipercaya Lebih Dari <br> 10 Tahun</h1>
+                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                        <img width="50" height="50" src="img/delivery.png" alt="delivery--v1" />
+                        <div class="ms-4 font-white">
+                            <h5 class="font-white">Pengiriman Seluruh Indonesia</h5>
+                            <p class="mb-0 font-white">Memiliki jaringan pemasaran dan distribusi di seluruh Indonesia.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                        <img width="50" height="50" src="img/quality.png" alt="delivery--v1" />
+                        <div class="ms-4 font-white">
+                            <h5 class="font-white">Produk Berkualitas</h5>
+                            <p class="mb-0 font-white">Kami menyediakan pupuk dengan bahan berkualitas yang dipilih dan
+                                diolah dengan langsung secara professional.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
+                        <img width="50" height="50" src="img/legality.png" alt="delivery--v1" />
+                        <div class="ms-4 font-white">
+                            <h5 class="font-white">Dokumen Legal Lengkap</h5>
+                            <p class="mb-0 font-white">Memiliki kelengkapan semua dokumen legal yang dibutuhkan untuk
+                                edar pupuk.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg"
+                            style="object-fit: cover;" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Feature End -->
+
 
     <!-- Fact Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5">
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -203,7 +237,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Fact End -->
 
 
@@ -211,68 +245,38 @@
     <div class="container-xxl py-5">
         <div class="container py-5">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-secondary text-uppercase">Our Services</h6>
-                <h1 class="mb-5">Explore Our Services</h1>
+                <h6 class="text-secondary text-uppercase">Produk Kami</h6>
+                <h1 class="mb-5">Jelajahi Produk Kami</h1>
             </div>
             <div class="row g-4">
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-1.jpg" alt="">
+                            <img class="img-fluid" src="img/product1.png" alt="">
                         </div>
-                        <h4 class="mb-3">Air Freight</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <h4 class="mb-3">NPK 15.15.15</h4>
+                        <p>Pupuk dengan kandungan hara N, P dan K yang mudah diserap oleh tanaman.</p>
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Selengkapnya</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-2.jpg" alt="">
+                            <img class="img-fluid" src="img/product2.png" alt="">
                         </div>
-                        <h4 class="mb-3">Ocean Freight</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <h4 class="mb-3">SL Formula</h4>
+                        <p>Pembenah tanah (soil conditioner) untuk mempercepat pemulihan kualitas tanah.</p>
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Selengkapnya</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-3.jpg" alt="">
+                            <img class="img-fluid" src="img/product3.png" alt="">
                         </div>
-                        <h4 class="mb-3">Road Freight</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-4.jpg" alt="">
-                        </div>
-                        <h4 class="mb-3">Train Freight</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-5.jpg" alt="">
-                        </div>
-                        <h4 class="mb-3">Customs Clearance</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-6.jpg" alt="">
-                        </div>
-                        <h4 class="mb-3">Warehouse Solutions</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                        <h4 class="mb-3">SPTRO 36</h4>
+                        <p>Pembenah tanah (soil conditioner) untuk mempercepat pemulihan kualitas tanah.</p>
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Selengkapnya</span></a>
                     </div>
                 </div>
             </div>
@@ -281,52 +285,8 @@
     <!-- Service End -->
 
 
-    <!-- Feature Start -->
-    <div class="container-fluid overflow-hidden py-5 px-lg-0">
-        <div class="container feature py-5 px-lg-0">
-            <div class="row g-5 mx-lg-0">
-                <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="text-secondary text-uppercase mb-3">Our Features</h6>
-                    <h1 class="mb-5">We Are Trusted Logistics Company Since 1990</h1>
-                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
-                        <i class="fa fa-globe text-primary fa-3x flex-shrink-0"></i>
-                        <div class="ms-4">
-                            <h5>Worldwide Service</h5>
-                            <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo
-                                justo magna erat amet</p>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-5 wow fadeIn" data-wow-delay="0.5s">
-                        <i class="fa fa-shipping-fast text-primary fa-3x flex-shrink-0"></i>
-                        <div class="ms-4">
-                            <h5>On Time Delivery</h5>
-                            <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo
-                                justo magna erat amet</p>
-                        </div>
-                    </div>
-                    <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
-                        <i class="fa fa-headphones text-primary fa-3x flex-shrink-0"></i>
-                        <div class="ms-4">
-                            <h5>24/7 Telephone Support</h5>
-                            <p class="mb-0">Diam dolor ipsum sit amet eos erat ipsum lorem sed stet lorem sit clita duo
-                                justo magna erat amet</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg"
-                            style="object-fit: cover;" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Feature End -->
-
-
     <!-- Pricing Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5">
         <div class="container py-5">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="text-secondary text-uppercase">Pricing Plan</h6>
@@ -398,12 +358,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Pricing End -->
 
 
     <!-- Quote Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5">
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-5 wow fadeInUp" data-wow-delay="0.1s">
@@ -455,12 +415,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Quote End -->
 
 
     <!-- Team Start -->
-    <div class="container-xxl py-5">
+    <!-- <div class="container-xxl py-5">
         <div class="container py-5">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <h6 class="text-secondary text-uppercase">Our Team</h6>
@@ -537,7 +497,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Team End -->
 
 
@@ -613,8 +573,10 @@
         <div class="container py-5">
             <div class="row g-5">
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Address</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
+                    <h4 class="text-light mb-4">Alamat</h4>
+                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Jl. Raya Daendels Km. 47,2,
+                        RT.001, RW.001, Desa
+                        Bolo, Kecamatan Ujungpangkah, Kab. Gresik, Provinsi Jawa Timur.</p>
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
                     <div class="d-flex pt-2">
@@ -625,29 +587,18 @@
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Air Freight</a>
-                    <a class="btn btn-link" href="">Sea Freight</a>
-                    <a class="btn btn-link" href="">Road Freight</a>
-                    <a class="btn btn-link" href="">Logistic Solutions</a>
-                    <a class="btn btn-link" href="">Industry solutions</a>
+                    <h4 class="text-light mb-4">Link</h4>
+                    <a class="btn btn-link" href="">Beranda</a>
+                    <a class="btn btn-link" href="">Kelebihan</a>
+                    <a class="btn btn-link" href="">Produk</a>
+                    <a class="btn btn-link" href="">Tentang kami</a>
                 </div>
                 <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button"
-                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
+                    <h4 class="text-light mb-4">Google Maps</h4>
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3960.3246490683387!2d112.52077947851167!3d-6.9709727502614385!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e77e34a5cb32f15%3A0x783f2515d3e7d9ae!2sPT%20CENTRA%20AGRO%20PRATAMA!5e0!3m2!1sen!2sid!4v1695284895085!5m2!1sen!2sid"
+                        width="600" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
         </div>
@@ -655,7 +606,7 @@
             <div class="copyright">
                 <div class="row">
                     <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
+                        &copy; <a class="border-bottom" href="#">PT. Centra Agro Pratama</a>, All Right Reserved.
                     </div>
                 </div>
             </div>
