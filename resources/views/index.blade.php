@@ -61,8 +61,7 @@
             <h4 class="m-0 pe-lg-5 d-none d-lg-block"><a href="
             javascript:void(0)"
                     onclick="window.open('https://wa.me/6281359225792?text=Halo,',',%20Saya%20tertarik%20dengan%20produk%20pupuk%20anda%20','blank')">
-                    <img width="48" height="48" src="https://img.icons8.com/color/48/000000/whatsapp--v1.png"
-                        alt="whatsapp--v1" />
+                    <img width="auto" height="48" src="img/contactus.png" alt="whatsapp--v1" />
                 </a>
             </h4>
         </div>
