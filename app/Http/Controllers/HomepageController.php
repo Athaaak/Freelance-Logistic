@@ -25,6 +25,10 @@ class HomepageController extends Controller
             return view('contact');
     }
 
+    public function product(){
+        return view('product');
+}
+
     public function about(){
             return view('about');
     }

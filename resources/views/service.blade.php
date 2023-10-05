@@ -14,95 +14,64 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Services</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Kelebihan Kami</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
-                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Services</li>
+                    <li class="breadcrumb-item"><a class="text-white"
+                            href="{{ route('index') }}">Home</a></li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Kelebihan</li>
                 </ol>
             </nav>
         </div>
     </div>
     <!-- Page Header End -->
 
-
-    <!-- Service Start -->
-    <div class="container-xxl py-5">
-        <div class="container py-5">
-            <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-secondary text-uppercase">Our Services</h6>
-                <h1 class="mb-5">Explore Our Services</h1>
-            </div>
-            <div class="row g-4">
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-1.jpg" alt="">
+    <!-- Feature Start -->
+    <div class="container-fluid overflow-hidden py-5 px-lg-0">
+        <div class="container feature py-5 px-lg-0">
+            <div class="row g-5 mx-lg-0">
+                <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
+                    <h6 class="font-black text-uppercase mb-3">Kelebihan kami</h6>
+                    <h1 class="mb-5 font-black">Telah Dipercaya Lebih Dari <br> 10 Tahun</h1>
+                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                        <img width="50" height="50" src="img/delivery.png" alt="delivery--v1" />
+                        <div class="ms-4 font-black">
+                            <h5 class="font-black">Pengiriman Seluruh Indonesia</h5>
+                            <p class="mb-0 font-black">Memiliki jaringan pemasaran dan distribusi di seluruh Indonesia.
+                            </p>
                         </div>
-                        <h4 class="mb-3">Air Freight</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                    </div>
+                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                        <img width="50" height="50" src="img/quality.png" alt="delivery--v1" />
+                        <div class="ms-4 font-black">
+                            <h5 class="font-black">Produk Berkualitas</h5>
+                            <p class="mb-0 font-black">Kami menyediakan pupuk dengan bahan berkualitas yang dipilih dan
+                                diolah dengan langsung secara professional.</p>
+                        </div>
+                    </div>
+                    <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
+                        <img width="50" height="50" src="img/legality.png" alt="delivery--v1" />
+                        <div class="ms-4 font-black">
+                            <h5 class="font-black">Dokumen Legal Lengkap</h5>
+                            <p class="mb-0 font-black">Memiliki kelengkapan semua dokumen legal yang dibutuhkan untuk
+                                edar pupuk.</p>
+                        </div>
                     </div>
                 </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-2.jpg" alt="">
-                        </div>
-                        <h4 class="mb-3">Ocean Freight</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-3.jpg" alt="">
-                        </div>
-                        <h4 class="mb-3">Road Freight</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-4.jpg" alt="">
-                        </div>
-                        <h4 class="mb-3">Train Freight</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-5.jpg" alt="">
-                        </div>
-                        <h4 class="mb-3">Customs Clearance</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
-                    </div>
-                </div>
-                <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/service-6.jpg" alt="">
-                        </div>
-                        <h4 class="mb-3">Warehouse Solutions</h4>
-                        <p>Stet stet justo dolor sed duo. Ut clita sea sit ipsum diam lorem diam.</p>
-                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Read More</span></a>
+                <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
+                    <div class="position-relative h-100">
+                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg"
+                            style="object-fit: cover;" alt="">
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Service End -->
+    <!-- Feature End -->
 
 
     <!-- Testimonial Start -->
-    <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+    <!-- <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="text-center">
                 <h6 class="text-secondary text-uppercase">Testimonial</h6>
@@ -163,64 +132,12 @@
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
     <!-- Testimonial End -->
 
 
     <!-- Footer Start -->
-    <div class="container-fluid bg-dark text-light footer pt-5 wow fadeIn" data-wow-delay="0.1s"
-        style="margin-top: 6rem;">
-        <div class="container py-5">
-            <div class="row g-5">
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Address</h4>
-                    <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>123 Street, New York, USA</p>
-                    <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+012 345 67890</p>
-                    <p class="mb-2"><i class="fa fa-envelope me-3"></i>info@example.com</p>
-                    <div class="d-flex pt-2">
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-outline-light btn-social" href=""><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Services</h4>
-                    <a class="btn btn-link" href="">Air Freight</a>
-                    <a class="btn btn-link" href="">Sea Freight</a>
-                    <a class="btn btn-link" href="">Road Freight</a>
-                    <a class="btn btn-link" href="">Logistic Solutions</a>
-                    <a class="btn btn-link" href="">Industry solutions</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Quick Links</h4>
-                    <a class="btn btn-link" href="">About Us</a>
-                    <a class="btn btn-link" href="">Contact Us</a>
-                    <a class="btn btn-link" href="">Our Services</a>
-                    <a class="btn btn-link" href="">Terms & Condition</a>
-                    <a class="btn btn-link" href="">Support</a>
-                </div>
-                <div class="col-lg-3 col-md-6">
-                    <h4 class="text-light mb-4">Newsletter</h4>
-                    <p>Dolor amet sit justo amet elitr clita ipsum elitr est.</p>
-                    <div class="position-relative mx-auto" style="max-width: 400px;">
-                        <input class="form-control border-0 w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button"
-                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="copyright">
-                <div class="row">
-                    <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                        &copy; <a class="border-bottom" href="#">Your Site Name</a>, All Right Reserved.
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
+    @include('template.footer')
     <!-- Footer End -->
 
 

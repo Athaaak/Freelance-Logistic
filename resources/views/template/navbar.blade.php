@@ -8,10 +8,27 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <div class="navbar-nav ms-auto p-4 p-lg-0">
-            <a href="{{ route('index') }}" class="nav-item nav-link active">Home</a>
-            <a href="{{ route('service') }}" class="nav-item nav-link">Kelebihan</a>
-            <a href="{{ route('contact') }}" class="nav-item nav-link">Produk</a>
-            <a href="{{ route('about') }}" class="nav-item nav-link">Tentang Kami</a>
+            @if(Route::is('index'))
+                <a href="{{ route('index') }}" class="nav-item nav-link active">Home</a>
+                <a href="{{ route('service') }}" class="nav-item nav-link">Kelebihan</a>
+                <a href="{{ route('product') }}" class="nav-item nav-link">Produk</a>
+                <a href="{{ route('about') }}" class="nav-item nav-link">Tentang Kami</a>
+            @elseif(Route::is('service'))
+                <a href="{{ route('index') }}" class="nav-item nav-link">Home</a>
+                <a href="{{ route('service') }}" class="nav-item nav-link active">Kelebihan</a>
+                <a href="{{ route('product') }}" class="nav-item nav-link">Produk</a>
+                <a href="{{ route('about') }}" class="nav-item nav-link">Tentang Kami</a>
+            @elseif(Route::is('product'))
+                <a href="{{ route('index') }}" class="nav-item nav-link">Home</a>
+                <a href="{{ route('service') }}" class="nav-item nav-link">Kelebihan</a>
+                <a href="{{ route('product') }}" class="nav-item nav-link active">Produk</a>
+                <a href="{{ route('about') }}" class="nav-item nav-link">Tentang Kami</a>
+            @elseif(Route::is('about'))
+                <a href="{{ route('index') }}" class="nav-item nav-link">Home</a>
+                <a href="{{ route('service') }}" class="nav-item nav-link">Kelebihan</a>
+                <a href="{{ route('product') }}" class="nav-item nav-link">Produk</a>
+                <a href="{{ route('about') }}" class="nav-item nav-link active">Tentang Kami</a>
+            @endif
         </div>
         <h4 class="m-0 pe-lg-5 d-none d-lg-block"><a href="
             javascript:void(0)"
