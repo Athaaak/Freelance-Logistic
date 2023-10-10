@@ -26,6 +26,10 @@
     color: #44A611;
 }
 
+.text-align {
+    text-align: center;
+}
+
 .remove-padding {
     padding-bottom: 0 !important;
     margin-bottom: -3rem !important;
@@ -264,6 +268,15 @@
 
 .breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
+}
+
+.parallax {
+    background-image: url("../img/header-bg.jpg");
+    min-height: 800px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 

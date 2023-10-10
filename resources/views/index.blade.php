@@ -15,14 +15,15 @@
     <div class="container-fluid p-0 remove-padding">
         <div class="owl-carousel header-carousel position-relative mb-5">
             <div class="owl-carousel-item position-relative">
-                <img class="img-fluid" src="img/header-bg.jpg" alt="">
+                <div class="parallax">
+                </div>
                 <div class="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center"
                     style="background: rgba(6, 3, 21, .5);">
                     <div class="container">
                         <div class="row justify-content-start">
                             <div class="col-10 col-lg-8">
                                 <h5 class="text-white text-uppercase mb-3 animated slideInDown">Agriculture
-                                    Solution</h5>
+                                    Product and Solution</h5>
                                 <h1 class="display-3 text-white animated slideInDown mb-4 font-size-header">#1 Solusi
                                     <span class="font-green">Pupuk</span> <br>Pertanian Anda</h1>
                                 <p class="fs-5 fw-medium text-white mb-4 pb-2 header-desc">Temukan berbagai kebutuhan
@@ -31,8 +32,7 @@
                                 </p>
                                 <a href="javascript:void(0)"
                                     onclick="window.open('https://wa.me/6281359225792?text=Halo,',',%20Saya%20tertarik%20dengan%20produk%20pupuk%20anda%20','blank')"
-                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Hubungi
-                                    Kami</a>
+                                    class="btn btn-primary py-md-3 px-md-5 me-3 animated slideInLeft">Selengkapnya</a>
                             </div>
                         </div>
                     </div>
@@ -193,31 +193,31 @@
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/product1.png" alt="">
+                            <img class="img-fluid" src="img/product1.jpg" alt="">
                         </div>
-                        <h4 class="mb-3">NPK 15.15.15</h4>
-                        <p>Pupuk dengan kandungan hara N, P dan K yang mudah diserap oleh tanaman.</p>
-                        <!-- <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Selengkapnya</span></a> -->
+                        <h4 class="mb-3">Bio Fertilizer</h4>
+                        <!-- <p>Pupuk dengan kandungan hara N, P dan K yang mudah diserap oleh tanaman.</p> -->
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Selengkapnya</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/product2.png" alt="">
+                            <img class="img-fluid" src="img/product2.jpg" alt="">
                         </div>
-                        <h4 class="mb-3">SL Formula</h4>
-                        <p>Pembenah tanah (soil conditioner) untuk mempercepat pemulihan kualitas tanah.</p>
-                        <!-- <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Selengkapnya</span></a> -->
+                        <h4 class="mb-3">Organic Fertilizer</h4>
+                        <!-- <p>Pembenah tanah (soil conditioner) untuk mempercepat pemulihan kualitas tanah.</p> -->
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Selengkapnya</span></a>
                     </div>
                 </div>
                 <div class="col-md-6 col-lg-4 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="service-item p-4">
                         <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/product3.png" alt="">
+                            <img class="img-fluid" src="img/product3.jpg" alt="">
                         </div>
-                        <h4 class="mb-3">SPTRO 36</h4>
-                        <p>Pembenah tanah (soil conditioner) untuk mempercepat pemulihan kualitas tanah.</p>
-                        <!-- <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Selengkapnya</span></a> -->
+                        <h4 class="mb-3">SPTRO Extra Phospat</h4>
+                        <!-- <p>Pembenah tanah (soil conditioner) untuk mempercepat pemulihan kualitas tanah.</p> -->
+                        <a class="btn-slide mt-2" href=""><i class="fa fa-arrow-right"></i><span>Selengkapnya</span></a>
                     </div>
                 </div>
             </div>
@@ -361,84 +361,29 @@
 
 
     <!-- Team Start -->
-    <!-- <div class="container-xxl py-5">
+    <div class="container-xxl py-5">
         <div class="container py-5">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h6 class="text-secondary text-uppercase">Our Team</h6>
-                <h1 class="mb-5">Expert Team Members</h1>
+                <!-- <h6 class="text-secondary text-uppercase">Our Team</h6> -->
+                <h1 class="mb-5">Kami terdaftar di</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="team-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/team-1.jpg" alt="">
-                        </div>
-                        <h5 class="mb-0">Full Name</h5>
-                        <p>Designation</p>
-                        <div class="btn-slide mt-1">
-                            <i class="fa fa-share"></i>
-                            <span>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </span>
-                        </div>
-                    </div>
+                    <img src="img/kemendag.svg">
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp text-align" data-wow-delay="0.5s">
+                    <img src="img/kemenkumham.png" width="auto" height="100" style="text-align: center !important;">
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp text-align" data-wow-delay="0.5s">
+                    <img src="img/kementan.png" width="auto" height="100" style="text-align: center !important;">
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="team-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/team-2.jpg" alt="">
-                        </div>
-                        <h5 class="mb-0">Full Name</h5>
-                        <p>Designation</p>
-                        <div class="btn-slide mt-1">
-                            <i class="fa fa-share"></i>
-                            <span>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="team-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/team-3.jpg" alt="">
-                        </div>
-                        <h5 class="mb-0">Full Name</h5>
-                        <p>Designation</p>
-                        <div class="btn-slide mt-1">
-                            <i class="fa fa-share"></i>
-                            <span>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </span>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.9s">
-                    <div class="team-item p-4">
-                        <div class="overflow-hidden mb-4">
-                            <img class="img-fluid" src="img/team-4.jpg" alt="">
-                        </div>
-                        <h5 class="mb-0">Full Name</h5>
-                        <p>Designation</p>
-                        <div class="btn-slide mt-1">
-                            <i class="fa fa-share"></i>
-                            <span>
-                                <a href=""><i class="fab fa-facebook-f"></i></a>
-                                <a href=""><i class="fab fa-twitter"></i></a>
-                                <a href=""><i class="fab fa-instagram"></i></a>
-                            </span>
-                        </div>
-                    </div>
+                    <img src="img/kan.png" width="auto" height="100">
                 </div>
             </div>
         </div>
-    </div> -->
+    </div>
+
     <!-- Team End -->
 
 
