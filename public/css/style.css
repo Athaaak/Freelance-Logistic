@@ -6,12 +6,18 @@
     --dark: #060315;
 }
 
+.btn-primary {
+    background-color: #FF3E41;
+    border-color: #FF3E41;
+}
+
 .bg-color-green {
     background-color: #36860D;
 }
 
 .font-size-header {
     font-size: 85px;
+    font-weight: 600;
 }
 
 .font-white {
@@ -270,6 +276,10 @@
     color: var(--light);
 }
 
+.breadcrumb {
+    background-color: transparent;
+}
+
 .parallax {
     background-image: url("../img/header-bg.jpg");
     min-height: 800px;
@@ -335,7 +345,7 @@
     box-shadow: 0 0 45px rgba(0, 0, 0, .07);
 }
 
-.service-item img,
+/* .service-item img,
 .team-item img {
     transition: .5s;
 }
@@ -343,7 +353,7 @@
 .service-item:hover img,
 .team-item:hover img {
     transform: scale(1.1);
-}
+} */
 
 .service-item a.btn-slide,
 .price-item a.btn-slide,
@@ -528,4 +538,95 @@
 
 .footer .copyright a {
     color: var(--light);
+}
+
+
+.popup .overlay {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 1;
+    display: none;
+}
+
+.popup .content {
+    position: absolute;
+    left: 50%;
+    top: auto;
+    transform: translate(-50%, -50%) scale(0);
+    background: #fff;
+    width: 1000px;
+    height: auto;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.popup .close-btn {
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 15px;
+    width: 30px;
+    height: 30px;
+    color: red;
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 30px;
+    border-radius: 50%;
+    z-index: 3;
+}
+
+.popup.active .overlay {
+    display: block;
+}
+
+.popup.active .content {
+    transition: all 300ms ease-in-out;
+    transform: translate(-50%, -100%) scale(1);
+}
+
+.product-title {
+    font-size: 50px;
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.details {
+    padding: 20px;
+    margin-top: 20px;
+    display: block;
+
+}
+
+.details-label {
+    font-size: 24px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: left;
+    font-weight: 600;
+}
+
+.specs-label {
+    font-size: 24px;
+    color: black;
+    margin: 20px 0;
+    text-align: left;
+    font-weight: 600;
+}
+
+.details-img {
+    display: flex;
+}
+
+
+/*** Carousel Pop-up Box ***/
+
+.carousel-inner {
+    text-align: -webkit-center;
 }

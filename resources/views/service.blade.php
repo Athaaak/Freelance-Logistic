@@ -14,64 +14,123 @@
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Kelebihan Kami</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">Keunggulan Kami</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a class="text-white"
                             href="{{ route('index') }}">Home</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Kelebihan</li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">Keunggulan</li>
                 </ol>
             </nav>
         </div>
     </div>
     <!-- Page Header End -->
 
-    <!-- Feature Start -->
-    <div class="container-fluid overflow-hidden py-5 px-lg-0">
-        <div class="container feature py-5 px-lg-0">
-            <div class="row g-5 mx-lg-0">
-                <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
-                    <h6 class="font-black text-uppercase mb-3">Kelebihan kami</h6>
-                    <h1 class="mb-5 font-black">Telah Dipercaya Lebih Dari <br> 10 Tahun</h1>
-                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
-                        <img width="50" height="50" src="img/delivery.png" alt="delivery--v1" />
-                        <div class="ms-4 font-black">
-                            <h5 class="font-black">Pengiriman Seluruh Indonesia</h5>
-                            <p class="mb-0 font-black">Memiliki jaringan pemasaran dan distribusi di seluruh Indonesia.
-                            </p>
+    <<!-- Feature Start -->
+        <div class="container-fluid overflow-hidden py-5 px-lg-0 bg-color-green">
+            <div class="container feature py-5 px-lg-0">
+                <div class="row g-5 mx-lg-0">
+                    <div class="col-lg-6 feature-text wow fadeInUp" data-wow-delay="0.1s">
+                        <h6 class="font-white text-uppercase mb-3">Keunggulan kami</h6>
+                        <h1 class="mb-5 font-white">Telah Dipercaya Lebih Dari <br> 15 Tahun</h1>
+                        <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.7s">
+                            <img width="50" height="50" src="img/eco.png" alt="delivery--v1" />
+                            <div class="ms-4 font-white">
+                                <h5 class="font-white">100% Eco-friendly</h5>
+                                <p class="mb-0 font-white">Pada saat proses produksi kami mengedepankan prinsip
+                                    eco-friendly.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                            <img width="50" height="50" src="img/delivery.png" alt="delivery--v1" />
+                            <div class="ms-4 font-white">
+                                <h5 class="font-white">Pengiriman Seluruh Indonesia</h5>
+                                <p class="mb-0 font-white">Memiliki jaringan pemasaran dan distribusi di seluruh
+                                    Indonesia.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
+                            <img width="50" height="50" src="img/quality.png" alt="delivery--v1" />
+                            <div class="ms-4 font-white">
+                                <h5 class="font-white">Produk Berkualitas</h5>
+                                <p class="mb-0 font-white">Kami menyediakan pupuk dengan bahan berkualitas yang dipilih
+                                    dan
+                                    diolah dengan langsung secara professional.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.7s">
+                            <img width="50" height="50" src="img/legality.png" alt="delivery--v1" />
+                            <div class="ms-4 font-white">
+                                <h5 class="font-white">Dokumen Legal Lengkap</h5>
+                                <p class="mb-0 font-white">Memiliki kelengkapan semua dokumen legal yang dibutuhkan
+                                    untuk
+                                    edar pupuk.</p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.7s">
+                            <img width="50" height="50" src="img/affordable.png" alt="delivery--v1" />
+                            <div class="ms-4 font-white">
+                                <h5 class="font-white">Terjangkau</h5>
+                                <p class="mb-0 font-white">Harga yang lebih terjangkau daripada pupuk yang ada
+                                    dipasaran.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
+                            <img width="50" height="50" src="img/customize.png" alt="delivery--v1" />
+                            <div class="ms-4 font-white">
+                                <h5 class="font-white">Kustomisasi</h5>
+                                <p class="mb-0 font-white">Kami sadar akan perbedaan karakteristik tanah pada negara
+                                    yang
+                                    berbeda,
+                                    Maka dari itu, kami menyediakan opsi formula yang dapat dikostumisasi sesuai
+                                    kebutuhan
+                                    pembeli.</p>
+                            </div>
                         </div>
                     </div>
-                    <div class="d-flex mb-5 wow fadeInUp" data-wow-delay="0.3s">
-                        <img width="50" height="50" src="img/quality.png" alt="delivery--v1" />
-                        <div class="ms-4 font-black">
-                            <h5 class="font-black">Produk Berkualitas</h5>
-                            <p class="mb-0 font-black">Kami menyediakan pupuk dengan bahan berkualitas yang dipilih dan
-                                diolah dengan langsung secara professional.</p>
+                    <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
+                        <div class="position-relative h-100">
+                            <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg"
+                                style="object-fit: cover;" alt="">
                         </div>
-                    </div>
-                    <div class="d-flex mb-0 wow fadeInUp" data-wow-delay="0.7s">
-                        <img width="50" height="50" src="img/legality.png" alt="delivery--v1" />
-                        <div class="ms-4 font-black">
-                            <h5 class="font-black">Dokumen Legal Lengkap</h5>
-                            <p class="mb-0 font-black">Memiliki kelengkapan semua dokumen legal yang dibutuhkan untuk
-                                edar pupuk.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-6 pe-lg-0 wow fadeInRight" data-wow-delay="0.1s" style="min-height: 400px;">
-                    <div class="position-relative h-100">
-                        <img class="position-absolute img-fluid w-100 h-100" src="img/feature.jpg"
-                            style="object-fit: cover;" alt="">
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <!-- Feature End -->
+        <!-- Feature End -->
 
 
-    <!-- Testimonial Start -->
-    <!-- <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
+        <!-- Team Start -->
+        <div class="container-xxl py-5">
+            <div class="container py-5">
+                <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
+                    <!-- <h6 class="text-secondary text-uppercase">Our Team</h6> -->
+                    <h1 class="mb-5">Kami Terdaftar Di</h1>
+                </div>
+                <div class="row g-4">
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                        <img src="img/kemendag.svg">
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp text-align" data-wow-delay="0.5s">
+                        <img src="img/kemenkumham.png" width="auto" height="100" style="text-align: center !important;">
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp text-align" data-wow-delay="0.5s">
+                        <img src="img/kementan.png" width="auto" height="100" style="text-align: center !important;">
+                    </div>
+                    <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                        <img src="img/kan.png" width="auto" height="100">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Team End -->
+
+
+        <!-- Testimonial Start -->
+        <!-- <div class="container-xxl py-5 wow fadeInUp" data-wow-delay="0.1s">
         <div class="container py-5">
             <div class="text-center">
                 <h6 class="text-secondary text-uppercase">Testimonial</h6>
@@ -133,29 +192,30 @@
             </div>
         </div>
     </div> -->
-    <!-- Testimonial End -->
+        <!-- Testimonial End -->
 
 
-    <!-- Footer Start -->
-    @include('template.footer')
-    <!-- Footer End -->
+        <!-- Footer Start -->
+        @include('template.footer')
+        <!-- Footer End -->
 
 
-    <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i class="bi bi-arrow-up"></i></a>
+        <!-- Back to Top -->
+        <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-0 back-to-top"><i
+                class="bi bi-arrow-up"></i></a>
 
 
-    <!-- JavaScript Libraries -->
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+        <!-- JavaScript Libraries -->
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="lib/wow/wow.min.js"></script>
+        <script src="lib/easing/easing.min.js"></script>
+        <script src="lib/waypoints/waypoints.min.js"></script>
+        <script src="lib/counterup/counterup.min.js"></script>
+        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
 
-    <!-- Template Javascript -->
-    <script src="js/main.js"></script>
+        <!-- Template Javascript -->
+        <script src="js/main.js"></script>
 </body>
 
 </html>
