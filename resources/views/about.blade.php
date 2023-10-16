@@ -47,22 +47,11 @@
                     </p>
                     <div class="row g-4 mb-5">
                         <div class="wow fadeIn" data-wow-delay="0.5s">
-                            <img width="50" height="50" src="https://img.icons8.com/ios/50/chemical-plant-3.png"
-                                alt="chemical-plant-3" />
-                            <h5>Lokasi Pabrik Kami</h5>
-                            <p class="m-0">Lokasi Pabrik terletak di Jl. Raya Daendels Km. 47,2,
-                                RT.001, RW.001, Desa
-                                Bolo, Kecamatan Ujungpangkah, Kab. Gresik, Provinsi Jawa Timur.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row g-4 mb-5">
-                        <div class="wow fadeIn" data-wow-delay="0.5s">
                             <img width="50" height="50" src="https://img.icons8.com/ios/50/link-company-parent.png"
                                 alt="link-company-parent" />
                             <h5>Lokasi Kantor Kami</h5>
-                            <p class="m-0">Ruko nginden intan A2 Street no 11,
-                                Surabaya City, East Java, Indonesia
+                            <p class="m-0">Lokasi kantor kami terletak di Ruko Nginden Intan A2 no. 11, Kota Surabaya,
+                                Jawa Timur, Indonesia
                             </p>
                         </div>
                     </div>

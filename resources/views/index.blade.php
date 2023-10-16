@@ -77,22 +77,11 @@
                     </p>
                     <div class="row g-4 mb-5">
                         <div class="wow fadeIn" data-wow-delay="0.5s">
-                            <img width="50" height="50" src="https://img.icons8.com/ios/50/chemical-plant-3.png"
-                                alt="chemical-plant-3" />
-                            <h5>Lokasi Pabrik Kami</h5>
-                            <p class="m-0">Lokasi Pabrik terletak di Jl. Raya Daendels Km. 47,2,
-                                RT.001, RW.001, Desa
-                                Bolo, Kecamatan Ujungpangkah, Kab. Gresik, Provinsi Jawa Timur.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="row g-4 mb-5">
-                        <div class="wow fadeIn" data-wow-delay="0.5s">
                             <img width="50" height="50" src="https://img.icons8.com/ios/50/link-company-parent.png"
                                 alt="link-company-parent" />
                             <h5>Lokasi Kantor Kami</h5>
-                            <p class="m-0">Ruko nginden intan A2 Street no 11,
-                                Surabaya City, East Java, Indonesia
+                            <p class="m-0">Lokasi kantor kami terletak di Ruko Nginden Intan A2 no. 11, Kota Surabaya,
+                                Jawa Timur, Indonesia
                             </p>
                         </div>
                     </div>
@@ -291,7 +280,7 @@
                                                         height="auto"></div>
                                                 <div class="specs-label">Product Order</div>
                                                 <div class="details-img"><a href="javascript:void(0)"
-                                                        onclick="window.open('https://wa.me/6281359225792?text=Halo,%20saya%20tertarik%20dengan%20produk%20pupuk%20Bio%20Fertilizer%20anda%20','blank')">
+                                                        onclick="window.open('https://wa.me/6285246070090?text=Halo,%20saya%20tertarik%20dengan%20produk%20pupuk%20Bio%20Fertilizer%20anda%20','blank')">
                                                         <img width="auto" height="48" src="img/contactus.png"
                                                             alt="whatsapp--v1" />
                                                     </a></div>
@@ -374,7 +363,7 @@
                                                         height="auto"></div>
                                                 <div class="specs-label">Product Order</div>
                                                 <div class="details-img"><a href="javascript:void(0)"
-                                                        onclick="window.open('https://wa.me/6281359225792?text=Halo,%20saya%20tertarik%20dengan%20produk%20pupuk%20Organic%20Fertilizer%20anda%20','blank')">
+                                                        onclick="window.open('https://wa.me/6285246070090?text=Halo,%20saya%20tertarik%20dengan%20produk%20pupuk%20Organic%20Fertilizer%20anda%20','blank')">
                                                         <img width="auto" height="48" src="img/contactus.png"
                                                             alt="whatsapp--v1" />
                                                     </a></div>
@@ -455,7 +444,7 @@
                                                         height="auto"></div>
                                                 <div class="specs-label">Product Order</div>
                                                 <div class="details-img"><a href="javascript:void(0)"
-                                                        onclick="window.open('https://wa.me/6281359225792?text=Halo,%20saya%20tertarik%20dengan%20produk%20pupuk%20SPTRO%20Extra%20Phospat%20anda%20','blank')">
+                                                        onclick="window.open('https://wa.me/6285246070090?text=Halo,%20saya%20tertarik%20dengan%20produk%20pupuk%20SPTRO%20Extra%20Phospat%20anda%20','blank')">
                                                         <img width="auto" height="48" src="img/contactus.png"
                                                             alt="whatsapp--v1" />
                                                     </a></div>

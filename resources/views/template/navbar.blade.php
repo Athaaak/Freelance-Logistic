@@ -32,7 +32,7 @@
         </div>
         <h4 class="m-0 pe-lg-5 d-none d-lg-block"><a href="
             javascript:void(0)"
-                onclick="window.open('https://wa.me/6281359225792?text=Halo,',',%20Saya%20tertarik%20dengan%20produk%20pupuk%20anda%20','blank')">
+                onclick="window.open('https://wa.me/6285246070090?text=Halo,',',%20Saya%20tertarik%20dengan%20produk%20pupuk%20anda%20','blank')">
                 <img width="auto" height="48" src="img/contactus.png" alt="whatsapp--v1" />
             </a>
         </h4>
