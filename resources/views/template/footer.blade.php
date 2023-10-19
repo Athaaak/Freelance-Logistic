@@ -3,7 +3,7 @@
         <div class="row g-5">
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">Alamat Kantor</h4>
-                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Ruko nginden intan A2 Street no 11,
+                <p class="mb-2"><i class="fa fa-map-marker-alt me-3"></i>Ruko Nginden Intan A2 Street no 11,
                     Surabaya City, East Java, Indonesia.</p>
                 <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>(+62) 85246070090 / (+62) 81216568558</p>
                 <p class="mb-2"><i class="fa fa-envelope me-3"></i>ptcn2023@gmail.com</p>
@@ -17,9 +17,9 @@
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">Link</h4>
                 <a class="btn btn-link" href="{{ route('index') }}">Home</a>
-                <a class="btn btn-link" href="{{ route('service') }}">Kelebihan</a>
-                <a class="btn btn-link" href="{{ route('product') }}">Produk</a>
-                <a class="btn btn-link" href="{{ route('about') }}">Tentang kami</a>
+                <a class="btn btn-link" href="{{ route('about') }}">About Us</a>
+                <a class="btn btn-link" href="{{ route('service') }}">Company Value</a>
+                <a class="btn btn-link" href="{{ route('product') }}">Products</a>
             </div>
             <div class="col-lg-3 col-md-6">
                 <h4 class="text-light mb-4">Google Maps</h4>
