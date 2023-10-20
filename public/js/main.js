@@ -119,6 +119,7 @@ $('#myModal').on('shown.bs.modal', function () {
 })
 
 var swiper = new Swiper(".slide-content", {
+    watchSlidesProgress: true,
     slidesPerView: 3,
     spaceBetween: 25,
     loop: true,

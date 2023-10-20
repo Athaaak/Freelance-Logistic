@@ -37,7 +37,7 @@
 }
 
 .font-green {
-    color: #44A611;
+    color: #4ee100;
 }
 
 .text-align {
@@ -793,4 +793,16 @@
     .swiper-navBtn {
         display: none;
     }
+}
+
+.certif {
+    padding-right: 20px;
+}
+
+.kementan {
+    margin-top: -5px;
+}
+
+.kan {
+    margin-top: -9px;
 }

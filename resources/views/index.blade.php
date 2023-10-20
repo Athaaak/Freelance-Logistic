@@ -229,305 +229,340 @@
                 <h6 class="text-secondary text-uppercase">Our Product</h6>
                 <h1 class="mb-5">Explore Our Product</h1>
             </div>
+            <div class="slide-container swiper">
+                <div class="slide-content">
+                    <div class="card-wrapper swiper-wrapper">
+                        <div class="card swiper-slide">
+                            <div class="fadeInUp" data-wow-delay="0.3s">
+                                <div class="service-item p-4">
+                                    <div class="overflow-hidden mb-4">
+                                        <img class="img-fluid" src="img/product1.png" alt="">
+                                    </div>
+                                    <h4 class="mb-3">Bio Fertilizer</h4>
 
-            <div class="product-1-modal">
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle">Bio Fertilizer</h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
-                                        </li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="1">
-                                        </li>
-                                        <li data-target="#carouselExampleIndicators" data-slide-to="2">
-                                        </li>
-                                    </ol>
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img class="d-block" src="img/product1.png" width="400px" height="auto">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block" src="img/product1-details1.jpg" width="400px"
-                                                height="auto">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block" src="img/product1-details2.jpg" width="400px"
-                                                height="auto">
-                                        </div>
-                                    </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
-                                        data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"
-                                            style="background-color: black;"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
-                                        data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"
-                                            style="background-color: black;"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </div>
-                                <div class="product-desc">
-                                    <div class="details">
-                                        <div class="details-label">Product Details</div>
-                                        <div class="details-img"><img src="img/product-details1.png" width="650px"
-                                                height="auto"></div>
-                                        <div class="specs-label">Product Specifications</div>
-                                        <div class="details-img"><img src="img/product-specs1.png" width="550px"
-                                                height="auto"></div>
-                                        <div class="specs-label">Product Order</div>
-                                        <div class="details-img"><a href="javascript:void(0)"
-                                                onclick="window.open('https://wa.me/6285246070090?text=Halo,%20saya%20tertarik%20dengan%20produk%20pupuk%20Bio%20Fertilizer%20anda%20','blank')">
-                                                <img width="auto" height="48" src="img/contactus.png"
-                                                    alt="whatsapp--v1" />
-                                            </a></div>
-                                    </div>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter">
+                                        Read more
+                                    </button>
+
                                 </div>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="fadeInUp">
+                                <div class="service-item p-4">
+                                    <div class="overflow-hidden mb-4">
+                                        <img class="img-fluid" src="img/product2.png" alt="">
+                                    </div>
+                                    <h4 class="mb-3">Organic Fertilizer</h4>
+
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter2">
+                                        Read more
+                                    </button>
+
+                                </div>
                             </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="fadeInUp" data-wow-delay="0.3s">
+                                <div class="service-item p-4">
+                                    <div class="overflow-hidden mb-4">
+                                        <img class="img-fluid" src="img/product3.png" style="transform: scale(0.85);">
+                                    </div>
+                                    <h4 class="mb-3">SPTRO Fertilizer</h4>
+
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter3">
+                                        Read more
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="fadeInUp" data-wow-delay="0.3s">
+                                <div class="service-item p-4">
+                                    <div class="overflow-hidden mb-4">
+                                        <img class="img-fluid" src="img/product4.png" style="transform:scale(1.1)">
+                                    </div>
+                                    <h4 class="mb-3">NPK 15 15 15</h4>
+
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter4">
+                                        Read more
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="card swiper-slide">
+                            <div class="fadeInUp" data-wow-delay="0.3s">
+                                <div class="service-item p-4">
+                                    <div class="overflow-hidden mb-4">
+                                        <img class="img-fluid" src="img/product5.png" style="transform: scale(1.2);">
+                                    </div>
+                                    <h4 class="mb-3">Aquatic Fertilizer</h4>
+
+                                    <button type="button" class="btn btn-primary" data-toggle="modal"
+                                        data-target="#exampleModalCenter5">
+                                        Read more
+                                    </button>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-button-next swiper-navBtn"></div>
+                <div class="swiper-button-prev swiper-navBtn"></div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </div>
+        <div class="product-1-modal">
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Bio Fertilizer</h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active">
+                                    </li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="1">
+                                    </li>
+                                    <li data-target="#carouselExampleIndicators" data-slide-to="2">
+                                    </li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block" src="img/product1.png" width="400px" height="auto">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block" src="img/product1-details1.jpg" width="400px"
+                                            height="auto">
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img class="d-block" src="img/product1-details2.jpg" width="400px"
+                                            height="auto">
+                                    </div>
+                                </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"
+                                        style="background-color: black;"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"
+                                        style="background-color: black;"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
+                            </div>
+                            <div class="product-desc">
+                                <div class="details">
+                                    <div class="details-label">Product Specifications</div>
+                                    <div class="details-img"><img src="img/product-details1.png" width="650px"
+                                            height="auto"></div>
+                                    <div class="specs-label">Product Certifications</div>
+                                    <div class="details-img" style="display: flex;">
+                                        <div class="col-lg-3 certif sni" style="text-align: center;"><img
+                                                src="img/sni.png" width="100" height="auto" style="margin-top: 8px;">
+                                            <h6 style="padding: 20px 0px;">Indonesia National Standart</h6>
+                                        </div>
+                                        <div class="col-lg-4 certif kementan" style="text-align: center;">
+                                            <img src="img/kementan.png" width="100" height="auto">
+                                            <h6 style="padding: 20px 0px;">Department Of Agriculture Indonesia</h6>
+                                        </div>
+                                        <div class="col-lg-5 certif kan" style="text-align: center;">
+                                            <img src="img/kan.png" width="auto" height="100">
+                                            <h6 style="padding: 20px 0px 0 20px;">National Accreditation Committee</h6>
+                                        </div>
+                                    </div>
+                                    <div class="specs-label">Product Order</div>
+                                    <div class="details-img"><a href="javascript:void(0)"
+                                            onclick="window.open('https://wa.me/6285246070090?text=Halo,%20saya%20tertarik%20dengan%20produk%20pupuk%20Bio%20Fertilizer%20anda%20','blank')">
+                                            <img width="auto" height="48" src="img/contactus.png" alt="whatsapp--v1" />
+                                        </a></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
+        </div>
 
-            <div class="product-2-modal">
-                <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle">Organic Fertilizer
-                                </h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active">
-                                        </li>
-                                        <li data-target="#carouselExampleIndicators2" data-slide-to="1">
-                                        </li>
-                                    </ol>
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img class="d-block" src="img/product2.png" width="400px" height="auto">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block" src="img/product2-details.jpg" width="400px"
-                                                height="auto">
-                                        </div>
+        <div class="product-2-modal">
+            <div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">Organic Fertilizer
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators2" data-slide-to="0" class="active">
+                                    </li>
+                                    <li data-target="#carouselExampleIndicators2" data-slide-to="1">
+                                    </li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block" src="img/product2.png" width="400px" height="auto">
                                     </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button"
-                                        data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"
-                                            style="background-color: black;"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button"
-                                        data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"
-                                            style="background-color: black;"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </div>
-                                <div class="product-desc">
-                                    <div class="details">
-                                        <div class="details-label">Product Details</div>
-                                        <div class="details-img"><img src="img/product-details2.png" width="650px"
-                                                height="auto"></div>
-                                        <div class="specs-label">Product Specifications</div>
-                                        <div class="details-img"><img src="img/product-specs2.png" width="550px"
-                                                height="auto"></div>
-                                        <div class="specs-label">Product Order</div>
-                                        <div class="details-img"><a href="javascript:void(0)"
-                                                onclick="window.open('https://wa.me/6285246070090?text=Halo,%20saya%20tertarik%20dengan%20produk%20pupuk%20Organic%20Fertilizer%20anda%20','blank')">
-                                                <img width="auto" height="48" src="img/contactus.png"
-                                                    alt="whatsapp--v1" />
-                                            </a></div>
+                                    <div class="carousel-item">
+                                        <img class="d-block" src="img/product2-details.jpg" width="400px" height="auto">
                                     </div>
                                 </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"
+                                        style="background-color: black;"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"
+                                        style="background-color: black;"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <div class="product-desc">
+                                <div class="details">
+                                    <div class="specs-label">Benefit</div>
+                                    <div class="details-img" style="padding-bottom: 20px;">Mainly aimed to improve the
+                                        physical, chemical, and
+                                        biological quality of soil so that productivity of soil become
+                                        optimum.</div>
+                                    <div class="details-label">Product Specifications</div>
+                                    <div class="details-img"><img src="img/product-details2.png" width="650px"
+                                            height="auto"></div>
+                                    <div class="specs-label">Content</div>
+                                    <div class="details-img">Magnesium Oxide, Calcium Oxide, Zeolit, Nitrogen,
+                                        Phospat, Kalium, Amunium sulfate, Manganese, Iron,
+                                        Zinc & Cooper.</div>
+                                    <div class="specs-label">Product Certifications</div>
+                                    <div class="details-img" style="display: flex;">
+                                        <div class="certif sni"><img src="img/sni.png" width="40" height="auto"></div>
+                                        <div class="certif kementan">
+                                            <img src="img/kementan.png" width="40" height="auto">
+                                        </div>
+                                        <div class="certif kan">
+                                            <img src="img/kan.png" width="auto" height="40">
+                                        </div>
+                                    </div>
+                                    <div class="specs-label">Product Order</div>
+                                    <div class="details-img"><a href="javascript:void(0)"
+                                            onclick="window.open('https://wa.me/6285246070090?text=Halo,%20saya%20tertarik%20dengan%20produk%20pupuk%20Bio%20Fertilizer%20anda%20','blank')">
+                                            <img width="auto" height="48" src="img/contactus.png" alt="whatsapp--v1" />
+                                        </a></div>
+                                </div>
                             </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="product-3-modal">
-                <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLongTitle">SPTRO Extra Phospat
-                                </h5>
-                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                    <span aria-hidden="true">&times;</span>
-                                </button>
-                            </div>
-                            <div class="modal-body">
-                                <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
-                                    <ol class="carousel-indicators">
-                                        <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active">
-                                        </li>
-                                        <li data-target="#carouselExampleIndicators3" data-slide-to="1">
-                                        </li>
-                                    </ol>
-                                    <div class="carousel-inner">
-                                        <div class="carousel-item active">
-                                            <img class="d-block" src="img/product3.png" width="400px" height="auto">
-                                        </div>
-                                        <div class="carousel-item">
-                                            <img class="d-block" src="img/product3-details.jpg" width="400px"
-                                                height="auto">
-                                        </div>
+        </div>
+        <div class="product-3-modal">
+            <div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog"
+                aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalLongTitle">SPTRO Extra Phospat
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel">
+                                <ol class="carousel-indicators">
+                                    <li data-target="#carouselExampleIndicators3" data-slide-to="0" class="active">
+                                    </li>
+                                    <li data-target="#carouselExampleIndicators3" data-slide-to="1">
+                                    </li>
+                                </ol>
+                                <div class="carousel-inner">
+                                    <div class="carousel-item active">
+                                        <img class="d-block" src="img/product3.png" width="400px" height="auto">
                                     </div>
-                                    <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button"
-                                        data-slide="prev">
-                                        <span class="carousel-control-prev-icon" aria-hidden="true"
-                                            style="background-color: black;"></span>
-                                        <span class="sr-only">Previous</span>
-                                    </a>
-                                    <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button"
-                                        data-slide="next">
-                                        <span class="carousel-control-next-icon" aria-hidden="true"
-                                            style="background-color: black;"></span>
-                                        <span class="sr-only">Next</span>
-                                    </a>
-                                </div>
-                                <div class="product-desc">
-                                    <div class="details">
-                                        <div class="details-label">Product Details</div>
-                                        <div class="details-img"><img src="img/product-details3.png" width="650px"
-                                                height="auto"></div>
-                                        <div class="specs-label">Product Specifications</div>
-                                        <div class="details-img"><img src="img/product-specs3.png" width="550px"
-                                                height="auto"></div>
-                                        <div class="specs-label">Product Order</div>
-                                        <div class="details-img"><a href="javascript:void(0)"
-                                                onclick="window.open('https://wa.me/6285246070090?text=Halo,%20saya%20tertarik%20dengan%20produk%20pupuk%20SPTRO%20Extra%20Phospat%20anda%20','blank')">
-                                                <img width="auto" height="48" src="img/contactus.png"
-                                                    alt="whatsapp--v1" />
-                                            </a></div>
+                                    <div class="carousel-item">
+                                        <img class="d-block" src="img/product3-details.jpg" width="400px" height="auto">
                                     </div>
                                 </div>
+                                <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button"
+                                    data-slide="prev">
+                                    <span class="carousel-control-prev-icon" aria-hidden="true"
+                                        style="background-color: black;"></span>
+                                    <span class="sr-only">Previous</span>
+                                </a>
+                                <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button"
+                                    data-slide="next">
+                                    <span class="carousel-control-next-icon" aria-hidden="true"
+                                        style="background-color: black;"></span>
+                                    <span class="sr-only">Next</span>
+                                </a>
                             </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            <div class="product-desc">
+                                <div class="details">
+                                    <div class="specs-label">Benefit</div>
+                                    <div class="details-img" style="padding-bottom: 20px;">Stimulates root growth and
+                                        development, Increases
+                                        production & yield quality especially for grain crops, Contains
+                                        Calcium which can improve soil structure and neutralize soil
+                                        ph, Increase plant resistance to low temperatures.
+                                    </div>
+                                    <div class="details-label">Product Specifications</div>
+                                    <div class="details-img"><img src="img/product-details3.png" width="650px"
+                                            height="auto"></div>
+                                    <div class="specs-label">Content</div>
+                                    <div class="details-img">Magnesium Oxide, Calcium Oxide,Zeolit, Phospat.</div>
+                                    <div class="specs-label">Product Certifications</div>
+                                    <div class="details-img" style="display: flex;">
+                                        <div class="certif sni"><img src="img/sni.png" width="40" height="auto"></div>
+                                        <div class="certif kementan">
+                                            <img src="img/kementan.png" width="40" height="auto">
+                                        </div>
+                                        <div class="certif kan">
+                                            <img src="img/kan.png" width="auto" height="40">
+                                        </div>
+                                    </div>
+                                    <div class="specs-label">Product Order</div>
+                                    <div class="details-img"><a href="javascript:void(0)"
+                                            onclick="window.open('https://wa.me/6285246070090?text=Halo,%20saya%20tertarik%20dengan%20produk%20pupuk%20Bio%20Fertilizer%20anda%20','blank')">
+                                            <img width="auto" height="48" src="img/contactus.png" alt="whatsapp--v1" />
+                                        </a>
+                                    </div>
+                                </div>
                             </div>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
                         </div>
                     </div>
                 </div>
             </div>
-
-            <body>
-                <div class="slide-container swiper">
-                    <div class="slide-content">
-                        <div class="card-wrapper swiper-wrapper">
-                            <div class="card swiper-slide">
-                                <div class="fadeInUp" data-wow-delay="0.3s">
-                                    <div class="service-item p-4">
-                                        <div class="overflow-hidden mb-4">
-                                            <img class="img-fluid" src="img/product1.png" alt="">
-                                        </div>
-                                        <h4 class="mb-3">Bio Fertilizer</h4>
-
-                                        <button type="button" class="btn btn-primary" data-toggle="modal"
-                                            data-target="#exampleModalCenter">
-                                            Read more
-                                        </button>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card swiper-slide">
-                                <div class="fadeInUp" data-wow-delay="0.3s">
-                                    <div class="service-item p-4">
-                                        <div class="overflow-hidden mb-4">
-                                            <img class="img-fluid" src="img/product2.png" alt="">
-                                        </div>
-                                        <h4 class="mb-3">Organic Fertilizer</h4>
-
-                                        <button type="button" class="btn btn-primary" data-toggle="modal"
-                                            data-target="#exampleModalCenter2">
-                                            Read more
-                                        </button>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card swiper-slide">
-                                <div class="fadeInUp" data-wow-delay="0.3s">
-                                    <div class="service-item p-4">
-                                        <div class="overflow-hidden mb-4">
-                                            <img class="img-fluid" src="img/product3.png"
-                                                style="transform: scale(0.85);">
-                                        </div>
-                                        <h4 class="mb-3">SPTRO Fertilizer</h4>
-
-                                        <button type="button" class="btn btn-primary" data-toggle="modal"
-                                            data-target="#exampleModalCenter3">
-                                            Read more
-                                        </button>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card swiper-slide">
-                                <div class="fadeInUp" data-wow-delay="0.3s">
-                                    <div class="service-item p-4">
-                                        <div class="overflow-hidden mb-4">
-                                            <img class="img-fluid" src="img/product4.png" style="transform:scale(1.1)">
-                                        </div>
-                                        <h4 class="mb-3">NPK 15 15 15</h4>
-
-                                        <button type="button" class="btn btn-primary" data-toggle="modal"
-                                            data-target="#exampleModalCenter4">
-                                            Read more
-                                        </button>
-
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="card swiper-slide">
-                                <div class="fadeInUp" data-wow-delay="0.3s">
-                                    <div class="service-item p-4">
-                                        <div class="overflow-hidden mb-4">
-                                            <img class="img-fluid" src="img/product5.png"
-                                                style="transform: scale(1.2);">
-                                        </div>
-                                        <h4 class="mb-3">Aquatic Fertilizer</h4>
-
-                                        <button type="button" class="btn btn-primary" data-toggle="modal"
-                                            data-target="#exampleModalCenter5">
-                                            Read more
-                                        </button>
-
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="swiper-button-next swiper-navBtn"></div>
-                    <div class="swiper-button-prev swiper-navBtn"></div>
-                    <div class="swiper-pagination"></div>
-                </div>
         </div>
     </div>
     <!-- Service End -->
@@ -674,18 +709,16 @@
                 <h1 class="mb-5">We Are Registered On</h1>
             </div>
             <div class="row g-4">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <img src="img/kemendag.svg">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="text-align: center;">
+                    <img src="img/kemendag.svg" width="auto" height="100" style="text-align: center !important;">
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp text-align" data-wow-delay="0.5s">
+                <div class="col-lg-4 col-md-6 wow fadeInUp text-align" data-wow-delay="0.5s">
                     <img src="img/kemenkumham.png" width="auto" height="100" style="text-align: center !important;">
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp text-align" data-wow-delay="0.5s">
-                    <img src="img/kementan.png" width="auto" height="100" style="text-align: center !important;">
+                <div class="col-lg-4 col-md-6 wow fadeInUp text-align" data-wow-delay="0.5s">
+                    <img src="img/inaexport.png" width="280" height="100" style="text-align: center !important;">
                 </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <img src="img/kan.png" width="auto" height="100">
-                </div>
+
             </div>
         </div>
     </div>
