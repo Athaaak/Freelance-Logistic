@@ -19,15 +19,10 @@ use Illuminate\Support\Facades\Mail;
 
 Route::get('/',[HomepageController::class, 'index'])->name('index');
 Route::get('/home',[HomepageController::class, 'index'])->name('index');
-Route::get('/price',[HomepageController::class, 'price'])->name('price');
 Route::get('/about',[HomepageController::class, 'about'])->name('about');
-Route::get('/contact',[HomepageController::class, 'contact'])->name('contact');
+Route::get('/gallery',[HomepageController::class, 'gallery'])->name('gallery');
 Route::get('/product',[HomepageController::class, 'product'])->name('product');
-Route::get('/feature',[HomepageController::class, 'feature'])->name('feature');
-Route::get('/quote',[HomepageController::class, 'quote'])->name('quote');
 Route::get('/service',[HomepageController::class, 'service'])->name('service');
-Route::get('/team',[HomepageController::class, 'team'])->name('team');
-Route::get('/testimonial',[HomepageController::class, 'testimonial'])->name('testimonial');
 
 Route::get('send-mail', function () {
    

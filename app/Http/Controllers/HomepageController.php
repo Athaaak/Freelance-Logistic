@@ -33,6 +33,10 @@ class HomepageController extends Controller
             return view('about');
     }
 
+    public function gallery(){
+        return view('gallery');
+}
+
     public function service(){
         return view('service');
     }

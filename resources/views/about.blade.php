@@ -10,16 +10,51 @@
     @include('template.navbar')
     <!-- Navbar End -->
 
+    <!-- Floating Social Media bar Starts -->
+    <div class="float-sm">
+        <!-- <div class="fl-fl float-fb">
+            <i class="fa fa-facebook"></i>
+            <a href="" target="_blank"> Like us!</a>
+        </div>
+        <div class="fl-fl float-tw">
+            <i class="fa fa-twitter"></i>
+            <a href="" target="_blank">Follow us!</a>
+        </div> -->
+        <a href="" style="text-decoration: none; color:inherit">
+            <div class="fl-fl float-gp">
+                <img width="40" height="40" src="https://img.icons8.com/color/48/whatsapp--v1.png" alt="whatsapp--v1" />
+                <span style="margin-left: 10px; font-weight:600; color: white">Our Whatsapp</span>
+            </div>
+        </a>
+        <a href="" style="text-decoration: none; color: inherit">
+            <div class="fl-fl float-rs">
+                <img width="40" height="40" src="https://img.icons8.com/color/48/telegram-app--v1.png"
+                    alt="telegram-app--v1" />
+                <span href="" target="_blank" style="margin-left: 10px; font-weight:600; color: white">Our
+                    Telegram</span>
+            </div>
+        </a>
+        <!-- <div class="fl-fl float-ig">
+            <i class="fa fa-instagram"></i>
+            <a href="" target="_blank">Follow us!</a>
+        </div>
+        <div class="fl-fl float-pn">
+            <i class="fa fa-pinterest"></i>
+            <a href="" target="_blank">Follow us!</a>
+        </div> -->
+    </div>
+    <!-- Floating Social Media bar Ends -->
+
 
     <!-- Page Header Start -->
     <div class="container-fluid page-header py-5" style="margin-bottom: 6rem;">
         <div class="container py-5">
-            <h1 class="display-3 text-white mb-3 animated slideInDown">Tentang Kami</h1>
+            <h1 class="display-3 text-white mb-3 animated slideInDown">About Us</h1>
             <nav aria-label="breadcrumb animated slideInDown">
                 <ol class="breadcrumb">
                     <li class="breadcrumb-item"><a class="text-white"
                             href="{{ route('index') }}">Home</a></li>
-                    <li class="breadcrumb-item text-white active" aria-current="page">Tentang Kami</li>
+                    <li class="breadcrumb-item text-white active" aria-current="page">About Us</li>
                 </ol>
             </nav>
         </div>
@@ -31,27 +66,29 @@
     <div class="container-fluid overflow-hidden py-5 px-lg-0">
         <div class="container about py-5 px-lg-0">
             <div class="row g-5 mx-lg-0">
-                <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
+                <!-- <div class="col-lg-6 ps-lg-0 wow fadeInLeft" data-wow-delay="0.1s" style="min-height: 400px;">
                     <div class="position-relative h-100">
                         <img class="position-absolute img-fluid w-100 h-100" src="img/about.jpg"
                             style="object-fit: cover;" alt="">
                     </div>
-                </div>
-                <div class="col-lg-6 about-text wow fadeInUp" data-wow-delay="0.3s">
-                    <h6 class="text-secondary text-uppercase mb-3">tentang Kami</h6>
+                </div> -->
+                <div class="wow fadeInUp" data-wow-delay="0.3s" style="text-align: center;">
+                    <h6 class="text-secondary text-uppercase mb-3">About Us</h6>
                     <h1 class="mb-5">PT. Pemuda Timur Cahaya Nusantara</h1>
-                    <p class="mb-5">PT. Pemuda Timur Cahaya Nusantara adalah sebuah perusahaan
-                        bergerak di bidang pupuk. Kami berkomitmen untuk mendukung sumber pangan utama di seluruh dunia
-                        dengan menjadi penyedia solusi pertanian yang berkompeten.
+                    <p class="mb-5" style="font-size: 20px;">PT. Pemuda Timur Cahaya Nusantara is a company
+                        engaged in fertilizer. <br>We are committed to supporting food
+                        security worldwide by being a complete agricultural
+                        solutions provider.
 
                     </p>
                     <div class="row g-4 mb-5">
                         <div class="wow fadeIn" data-wow-delay="0.5s">
                             <img width="50" height="50" src="https://img.icons8.com/ios/50/link-company-parent.png"
                                 alt="link-company-parent" />
-                            <h5>Lokasi Kantor Kami</h5>
-                            <p class="m-0">Lokasi kantor kami terletak di Ruko Nginden Intan A2 no. 11, Kota Surabaya,
-                                Jawa Timur, Indonesia
+                            <h5>Our Office</h5>
+                            <p class="m-0" style="font-size: 20px;">Our office is placed at Ruko nginden intan A2 Street
+                                no 11,
+                                Surabaya City, East Java, Indonesia.
                             </p>
                         </div>
                     </div>

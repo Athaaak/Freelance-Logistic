@@ -12,21 +12,31 @@
                 <a href="{{ route('index') }}" class="nav-item nav-link active">Home</a>
                 <a href="{{ route('about') }}" class="nav-item nav-link">About Us</a>
                 <a href="{{ route('service') }}" class="nav-item nav-link">Company Value</a>
+                <a href="{{ route('gallery') }}" class="nav-item nav-link">Gallery</a>
                 <a href="{{ route('product') }}" class="nav-item nav-link">Products</a>
             @elseif(Route::is('service'))
                 <a href="{{ route('index') }}" class="nav-item nav-link">Home</a>
                 <a href="{{ route('about') }}" class="nav-item nav-link">About Us</a>
                 <a href="{{ route('service') }}" class="nav-item nav-link active">Company Value</a>
+                <a href="{{ route('gallery') }}" class="nav-item nav-link">Gallery</a>
                 <a href="{{ route('product') }}" class="nav-item nav-link">Products</a>
             @elseif(Route::is('product'))
                 <a href="{{ route('index') }}" class="nav-item nav-link">Home</a>
                 <a href="{{ route('about') }}" class="nav-item nav-link">About Us</a>
                 <a href="{{ route('service') }}" class="nav-item nav-link">Company Value</a>
+                <a href="{{ route('gallery') }}" class="nav-item nav-link">Gallery</a>
                 <a href="{{ route('product') }}" class="nav-item nav-link active">Products</a>
             @elseif(Route::is('about'))
                 <a href="{{ route('index') }}" class="nav-item nav-link">Home</a>
                 <a href="{{ route('about') }}" class="nav-item nav-link active">About Us</a>
-                <a href="{{ route('service') }}" class="nav-item nav-link active">Company Value</a>
+                <a href="{{ route('service') }}" class="nav-item nav-link ">Company Value</a>
+                <a href="{{ route('gallery') }}" class="nav-item nav-link">Gallery</a>
+                <a href="{{ route('product') }}" class="nav-item nav-link">Products</a>
+            @elseif(Route::is('gallery'))
+                <a href="{{ route('index') }}" class="nav-item nav-link">Home</a>
+                <a href="{{ route('about') }}" class="nav-item nav-link ">About Us</a>
+                <a href="{{ route('service') }}" class="nav-item nav-link">Company Value</a>
+                <a href="{{ route('gallery') }}" class="nav-item nav-link active">Gallery</a>
                 <a href="{{ route('product') }}" class="nav-item nav-link">Products</a>
             @endif
         </div>
@@ -36,6 +46,18 @@
                 <img width="auto" height="48" src="img/contactus.png" alt="whatsapp--v1" />
             </a>
         </h4>
+        <!-- <div class="dropdown" style="padding: 10px 10px 10px 0">
+                <button class="btn" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+                    <a class="dropdown-item" href="#"><img width="30" height="30"
+                            src="https://img.icons8.com/color/30/000000/indonesia-circular.png"
+                            alt="indonesia-circular" /></a>
+                </button>
+                <div class="dropdown-menu ">
+                    <a class="dropdown-item" href="#" style="margin-left: 13px;"><img width="30" height="30"
+                            src="https://img.icons8.com/color/30/usa-circular.png" alt="usa-circular" /></a>
+                </div>
+            </div> -->
+    </div>
     </div>
 </nav>
 <!-- Navbar End -->
