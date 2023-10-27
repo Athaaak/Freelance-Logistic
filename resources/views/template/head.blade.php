@@ -5,8 +5,8 @@
     <meta charset="utf-8">
     <title>PTCN Fertilizer</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    <meta content="Fertilizers" name="keywords">
+    <meta content="Your #1 Agriculture Fertilizers Solutions" name="description">
 
     <!-- Favicon -->
     <link href="img/favicon.png" rel="icon">
