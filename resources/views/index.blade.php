@@ -1047,7 +1047,7 @@
         <div class="container py-5">
             <div class="text-center wow fadeInUp" data-wow-delay="0.1s">
                 <!-- <h6 class="text-secondary text-uppercase">Our Team</h6> -->
-                <h1 class="mb-5">We Are Registered On</h1>
+                <h1 class="mb-5">We are registered at</h1>
             </div>
             <div class="row g-4">
                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s" style="text-align: center;">
